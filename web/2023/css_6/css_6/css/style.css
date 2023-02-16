@@ -1,0 +1,477 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-size: 14px;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+/* Work with project */
+
+/* margin может содержать отрицательное значение, свойство padding такой способностью не обладает */
+
+/* body {
+	padding: 30px;
+}
+
+.block {
+margin: 0px 0px 30px 0px;
+}
+
+.block p:nth-child(odd) {
+	background-color: yellow;
+}
+
+.block p:nth-child(even) {
+	background-color: grey;
+}
+
+.block p:last-child{
+	text-transform: uppercase;
+}
+
+.block p:nth-child(1) {
+	background-color: green;
+}
+
+.block p:nth-child(2) {
+	background-color: brown;
+}
+
+.block p:nth-child(3) {
+	background-color: black;
+	color: white;
+}
+
+.block:hover {
+	background-color: palevioletred;
+}
+
+.block p {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0px 0px 20px 0px;
+}
+
+.link {
+	color: red;
+}
+
+.link:visited {
+	color: greenyellow;
+}
+
+.link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: blue;
+}
+
+.link:active {
+	color: yellow;
+}
+
+.textinput {
+	border: 1px solid #666;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0px 0px 30px 0px;
+}
+
+.textinput:focus {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.textbutton {
+	display: block;
+	width: 300px;
+	height: 50px;
+	background-color: #666;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+	color: white;
+}
+
+.textbutton:hover{
+	background-color: burlywood;
+	color: black;
+}
+
+.textbutton:active {
+	background-color: #eee;
+}
+
+.passinput {
+	border: 1px solid #666;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0px 0px 30px 0px;
+}
+
+.passinput:focus {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.list {
+}
+
+.list li {
+	font-size: 18px;
+	margin: 0px 0px 10px 0px;
+} */
+
+/* .list li:first-child{
+	color: red;
+}
+
+.list li:nth-child(2) {
+	color: green;
+}
+
+.list li:nth-child(3) {
+	color: blue;
+}
+
+.list li:nth-child(4) {
+	color: firebrick;
+}
+
+.list li:last-child{
+	color:violet;
+	font-weight: 900;
+} */
+
+/* в момент указания к nth-child(odd) свойство применяется ко всем нечетным пунктам блока ul li*/
+
+/* .list li:nth-child(odd) {
+	text-transform: uppercase;
+}
+
+.list li:nth-child(even) {
+	color: aqua;
+	font-weight: 900;
+} */
+
+
+
+
+
+
+
+
+
+
+/* _________________________________________ */
+
+body {
+	background-color: #9b9999;
+	width: 1475px;
+	height: 1700px;
+}
+
+
+.center {
+margin: 80px 0 0 350px
+}
+
+.navodka {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000000;
+	position: absolute;
+	margin: 273px 0 0 125px;
+	}
+
+.style__center {
+font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #000000;
+margin-bottom: 10px;
+
+}
+
+ul li {
+	background: url('../img/galka.png') left 8px;
+	background-repeat: no-repeat;
+	padding: 0 0 0 30px;
+	
+}	
+
+ul li:first-child{
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: #273d46;	
+}
+
+ul li:nth-child(2) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #273d46;	
+}
+
+ul li:nth-child(3) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	font-style: italic;
+	color: #273d46;
+}
+
+ul li:nth-child(4) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #273d46;
+	margin-bottom: 45px;
+}
+
+ul li:nth-child(5) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #273d46;	
+}
+
+ul li:nth-child(6) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	
+}
+
+ul li:nth-child(6):hover {
+	color: #d55a5a;
+	background: url('../img/ggalka\ 2.png') left 8px no-repeat 
+}
+
+ul li:nth-child(7) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #273d46;	
+}
+
+ul li:nth-child(8) {
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #273d46;	
+}
+
+.btn-1 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	background: #80b7b3;
+	color: white;
+	margin: 35px 0 80px 345px;
+	border-radius: 30px;
+	/* padding: 10px 10px 10px 10px; */
+	width: 199px;
+	height: 44px;
+	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+.btn-2 {
+	font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+margin-left: 55px;
+border-radius: 30px;
+background: #80b7b3;
+/* padding: 10px 10px 10px 10px; */
+width: 199px;
+height: 44px;
+box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+.btn-2:hover{
+	width: 199px;
+	height: 44px;
+	background-color: #3a5856;
+	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+.btn-3 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	margin-left: 55px;
+	border-radius: 30px;
+	background: #80b7b3;
+	/* padding: 10px 10px 10px 10px; */
+	width: 199px;
+	height: 44px;
+	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+.btn-3:active{
+	width: 199px;
+height: 44px;
+background-color: #818181;
+}
+
+.text {
+	position:absolute;
+	margin-left:320px;
+
+}
+
+.text-1 {
+	margin-left: 690px;
+}
+
+.textfirst {
+	width: 294px;
+height: 52px;
+border: 1px solid #b0b0b0;
+margin: 0px 0px 40px 0px;
+}
+
+.focus {
+	/* font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #000000; */
+}
+
+.textsecond {
+	width: 294px;
+height: 52px;
+border: 1px solid #7fbed5;
+margin: 0px 0px 40px 0px;
+}
+
+.textsecond:focus {
+box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
+
+.focus-1 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000000;
+	position: absolute;
+	margin: 500px 0 0 690px;
+}
+
+.focus-2 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000000;
+	position: absolute;
+	/* margin-left: 530px; */
+	margin: 385px 100px 100px 640px;
+	padding-bottom: 3px;
+}
+
+.focus-3 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #000000;
+	position: absolute;
+	/* margin-left: 530px; */
+	margin: 385px 100px 100px 905px;
+	padding-bottom: 3px;
+}
+
+.psevdo {
+	font-size: 24px;
+	line-height: 33px;
+	margin: 0px 0px 30px 70px;
+}
+
+.psevdo::first-line {
+	color: red;
+}
+
+.psevdo-2 {
+	font-size: 24px;
+	line-height: 33px;
+	margin: 0px 0px 30px 70px;
+}
+
+.psevdo-2::first-letter {
+	color: red;
+}

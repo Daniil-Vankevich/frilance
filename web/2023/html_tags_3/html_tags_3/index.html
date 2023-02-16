@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Знакомства с html-тегами - часть 3 (формы) </title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<form action="#" method="get" enctype="multipart/form-data">
+		<div>
+			<p>Имя</p>
+			<input placeholder="Введите имя" tabindex="1" type="text" name="username">
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input placeholder="Введите пароль" tabindex="2" type="password" name="userpass">
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input placeholder="Введите номер телефона" tabindex="3" type="tel" name="telephone">
+		</div>
+		<div>
+			<p>Пол</p>
+			<input tabindex="4" checked type="radio" name="sex" value="male">Мужской
+		</div>
+		<div>
+			<input tabindex="4" type="radio" name="sex" value="female">Женский
+		</div>	 
+		<div>
+			<p>Имущество</p>
+			<input tabindex="5" checked type="checkbox" name="bycikle" value="yes"> Велик
+		</div>
+		<div>
+		  <input tabindex="6" type="checkbox" name="car" value="yes">Машина
+		</div>
+		<div>
+			<input tabindex="7" disabled type="checkbox" name="flat" value="yes">Квартира
+		</div>
+		
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea tabindex="8" name="info more"></textarea>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<p> <input tabindex="9" checked type="file" name="bycikle"></p>
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select tabindex="10" name="color">
+				<option selected value="red">Красный</option>
+				<option value="blue">Голубой</option>
+				<option  value="black">Черный</option>
+			</select>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button tabindex="11" type="submit">Отправить</button>
+			<button tabindex="12" type="reset">Очистить</button>
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-size: 14px;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+/* Work with project */
+
+/* margin может содержать отрицательное значение, свойство padding такой способностью не обладает */
+
+body {
+width: 1475px;
+height: 1700px;
+background: #717677;
+}
+
+.main {
+	background-color: #e8e8e8;
+	margin: 230px 0 0 20px;
+}
+
+.main h1 {
+opacity: 0.6;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #273d46;
+text-align: center;
+margin-top: 86px;
+margin-bottom: 5px;
+padding-top: 120px;
+}
+
+.textt {
+font-family: 'Times New Roman';
+font-size: 36px;
+line-height: 50px;
+font-weight: 400;
+color: #273d46;
+text-align: center;
+}
+
+p img {
+	margin: 60px 0 0 310px;
+	border: 9px solid white;
+	width: 841px;
+	height: 561px;
+	box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+
+.afterArt {
+opacity: 0.8;
+font-family: 'Times New Roman';
+font-size: 24px;
+line-height: 40px;
+font-weight: 400;
+color: #273d46;
+text-align: justify;
+margin: 60px 170px 40px 345px;
+}
+
+.list {
+	margin: 0 0 0 345px;
+}
+
+.list li{
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+color: #273d46;
+background: url('../img/galka.png') left no-repeat;
+margin: 0 0 15px 0;
+padding: 0px 0px 0px 30px;
+}
+
+.list li:nth-child(2) {
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+font-style: italic;
+color: #80b7b3;
+}
+
+.list li:nth-child(3){
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 700;
+color: #273d46;
+}
+
+.list li:last-child {
+	opacity: 0.7;
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	text-decoration: line-through;
+	/* color: #8c9496; */
+	color: #273d46
+}
+
+.btm {
+font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+background: #80b7b3;
+color: white;
+margin: 35px 0 170px 345px;
+border-radius: 30px;
+/* padding: 10px 10px 10px 10px; */
+width: 199px;
+height: 44px;
+box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+.btm:hover {
+	background-color:bisque;
+	color: #717677;
+}
+
+.btm:active {
+	background-color: #273d46;
+	color: aliceblue;
+}
