@@ -50,7 +50,7 @@ body {
 .list {
 	font-size: 18px;
 }
-
+/* css для listitem */
 .list li {
 	margin: 0px 0px 10px 0px;
 	position: relative;
