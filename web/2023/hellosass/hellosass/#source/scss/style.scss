@@ -1,0 +1,65 @@
+@import "./nullstyle.scss";
+
+
+// body of lesson
+
+// шаблоны в scss создаются при помощи символа процента %...........................
+// 
+%tplborder{
+	border-bottom: 5px dashed #000;
+	font-size: 120px;
+}
+// сначала отображаются стили, прописанные в шаблоне и затем ссылка
+
+
+
+// переменные в scss можно задать с пмощью символа доллара: например "$fz: 100px"
+$fz:100px;
+
+
+// ....................
+// миксины..........................
+// ...................
+@mixin fonts($f) {
+	font-size: $f;
+}
+
+.block {
+	background-color: gray;
+	width: 300px / 960px *100%;
+	padding: 30px;
+	p {
+		margin: 25px 0 0 0;
+		border: 5px solid #000;
+		font-size: 20px;
+		line-height: 30px;
+		color: brown;
+		background-color:aquamarine;
+		span {
+			color: green;
+		}
+	}
+}
+
+.link {
+	color: blue;
+	text-decoration: underline;
+	font-size: $fz;
+	&:hover{
+		color: red;
+	}
+	&::before{
+		content: '';
+	}
+	&::after {
+		content: '';
+	}
+	@extend %tplborder;
+}
+
+.link-2 {
+	@include fonts(100px);
+	padding-left: 30px;
+	@extend %tplborder;
+	border-bottom: 3px dotted palevioletred;
+}
