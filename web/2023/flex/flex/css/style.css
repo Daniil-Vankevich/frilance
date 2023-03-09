@@ -99,9 +99,80 @@ margin-bottom: 35px;
 .hi__image {
 }
 
+/* "WHAT" FLEX-BLOCK */
+
+.title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #445161;
+}
+
+.what {
+	padding: 50px 0px;
+}
+
+.what__row {
+	display: flex;
+}
+.what__image {
+	flex: 0 0 430px;
+}
+.what__body {
+	flex: 1 1 auto;
+	padding: 0px 0px 0px 35px;
+}
+.what__title {
+	margin: 0px 0px 20px 0px;
+}
+.what__text {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #333333;
+}
+
+
+
+/* "Columns" FLEX-BLOCK  23:12 times if video*/
+
+.columns {
+	background-color:rgb(249, 247, 247);
+}
+
+.columns__title {
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.columns__row {
+	display: flex;
+}
+.columns__column {
+	flex: 0 1 50%;
+}
+.columns__item {
+}
+.item {
+}
+.item__row {
+	display: flex;
+}
+.item__image {
+	flex: 0 0 200px;
+}
+.item__body {
+	flex: 1 1 auto;
+	padding: 0px 0px 0px 15px;
+}
+.item__title {
+}
+.item__text {
+}
+
+/* FOOTER */
 
 .footer {
-background-color: rgb(171, 174, 174);
+background-color: rgb(212, 213, 213);
 }
 .contrainer__row {
 	display: flex;
@@ -116,3 +187,6 @@ background-color: rgb(171, 174, 174);
 	letter-spacing: 0.3px;
 	color: #445162;
 }
+
+
+
