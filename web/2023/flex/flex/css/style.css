@@ -109,7 +109,7 @@ margin-bottom: 35px;
 }
 
 .what {
-	padding: 50px 0px;
+	padding: 50px 0px 20px 0px;
 }
 
 .what__row {
@@ -138,6 +138,7 @@ margin-bottom: 35px;
 
 .columns {
 	background-color:rgb(249, 247, 247);
+	padding: 45px 0px;
 }
 
 .columns__title {
@@ -146,9 +147,13 @@ margin-bottom: 35px;
 }
 .columns__row {
 	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -8px ;
 }
 .columns__column {
 	flex: 0 1 50%;
+	margin-bottom: 30px;
+	padding: 0px 8px;
 }
 .columns__item {
 }
@@ -165,9 +170,100 @@ margin-bottom: 35px;
 	padding: 0px 0px 0px 15px;
 }
 .item__title {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #445161;
+	margin-bottom: 15px;
 }
 .item__text {
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+color: #333333;
 }
+
+
+
+/* "Vertical" Flex-block */
+
+.vertical {
+	padding: 50px 0px;
+}
+
+.vertical__title {
+	text-align:center;
+	margin: 0px 0px 30px 0px;
+}
+
+.vertical__body {
+	max-width: 990px;
+	margin: 0px auto;
+}
+.vertical__row {
+	display: flex;
+	margin: 0px -22.5px ;
+}
+.vertical__column {
+	flex: 0 1 33.333%;
+	padding: 0px 22.5px;
+	display: flex;
+}
+.vertical__item {
+	background-color: #445162;
+	color: #ffffff;
+	border-radius: 5px;
+	border: 2px solid #445162;
+	display: flex;
+	flex-direction: column;
+}
+.vertical__subtitle {
+	text-align:center;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 12px 0px;
+}
+.vertical__label {
+	text-align:center;
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #445162;
+	background-color: white;
+	padding: 15px 0px;
+}
+.vertical__text {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 20px;
+	flex: 1 1 auto;
+}
+
+.vertical__text p {
+	margin: 0px 0px 15px 0px;
+}
+
+.vertical__text p:last-child {
+	margin: 0px;
+}
+.vertical__btn {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #445161;
+	background-color: white;
+	padding: 13px 35px;
+	border-radius: 8px;
+	margin: 0px 20px 20px 20px; 
+	text-align: center;
+	display: block;
+}
+
 
 /* FOOTER */
 
@@ -181,7 +277,7 @@ background-color: rgb(212, 213, 213);
 	align-items:center;
 }
 .container__text {
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
 	letter-spacing: 0.3px;
