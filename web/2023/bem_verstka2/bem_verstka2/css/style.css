@@ -53,7 +53,7 @@ h1, h2 {
 }
 
 .header {
-	background: #fafafa;
+	background: #e0dfdf;
 	padding: 18px 0px;
 }
 .container {
@@ -121,8 +121,7 @@ h1, h2 {
 	padding-bottom: 227px;
 	background: url('../img/big_background.png') center / cover;
 }
-.container {
-}
+
 .offer__title {
 	font-style: normal;
 	font-weight: 400;
@@ -139,4 +138,60 @@ h1, h2 {
 	line-height: 25px;
 	color: #CACCD1;
 	width: 495px;
+}
+
+
+/* section "about" */
+
+.about {
+	background: #F5F5F5;
+	padding: 100px 0px;
+}
+
+.about img, .about__info {
+	width: 50%;
+}
+
+.about__content {
+	display: flex;
+}
+.about__info {
+	padding-top: 71px;
+	padding-left: 43px;
+}
+.section-title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 7px;
+	color: #575445;
+}
+.section-description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 32px;
+	width: 538px;
+}
+
+.about__description {
+	width: 395px;
+}
+
+.section-link {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 21px;
+	color: #575445;
+}
+
+.section-link::after {
+	content: "";
+	width: 20px;
+	height: 10px;
+	background: url('../img/Path.png');
+	margin-left: 6px;
+	display: inline-block;
 }
