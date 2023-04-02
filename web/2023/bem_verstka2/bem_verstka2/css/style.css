@@ -52,6 +52,8 @@ h1, h2 {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* header block!.................... */
+
 .header {
 	background: #e0dfdf;
 	padding: 18px 0px;
@@ -98,6 +100,18 @@ h1, h2 {
 
 .menu__item_active a {
 	font-size: 15px;
+}
+
+.menu__btn {
+	width: 42px;
+	height: 42px;
+	display: none;
+	margin-left: 20px;
+	background: #63625e;
+}
+
+.menu__btn img {
+	width: 100%;	
 }
 
 .btn {
@@ -195,3 +209,77 @@ h1, h2 {
 	margin-left: 6px;
 	display: inline-block;
 }
+
+/* media-запросы!.................... */
+
+/* large 1025px - 1300px */
+@media (max-width: 1300px) {
+	.container {
+		width: 960px;
+	}
+	.header__nav {
+		margin-right: 25px;
+	}
+
+}
+
+/* Medium 769px - 1024px */
+@media (max-width: 1024px) {
+	.container {
+		width: 720px;
+	}
+	.header {
+		position: relative;
+	}
+	.header__nav {
+		position: absolute;
+		right: 10%;
+		top: 77px;
+		background: #FFF;
+		border: 2px solid #575445;
+		border-radius: 16px;
+		padding: 17px;
+		margin: 0px;
+	}
+	.menu {
+		flex-direction: column;
+		width: auto;
+		text-align: center;
+	}
+	.menu__item {
+		margin-bottom: 12px;
+	}
+	.menu__item:last-of-type {
+		margin-bottom: 0px;
+	}
+
+	.menu__btn {
+		display: block;
+	}
+
+	.header__btn-buy {
+		margin-left: auto;
+	}
+
+	.about__description {
+		width: auto;
+	}
+	
+}
+
+/* Small 577px - 768px */
+@media (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/* the smallest 320px - 576px */
+@media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0px 15px;
+	}
+}
+
+/* 29:00 YT video */
