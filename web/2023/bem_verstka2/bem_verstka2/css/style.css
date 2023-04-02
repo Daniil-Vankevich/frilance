@@ -223,24 +223,32 @@ h1, h2 {
 
 }
 
+
+
 /* Medium 769px - 1024px */
 @media (max-width: 1024px) {
 	.container {
 		width: 720px;
 	}
-	.header {
+	.header__content {
 		position: relative;
 	}
 	.header__nav {
+		display: none;
 		position: absolute;
-		right: 10%;
-		top: 77px;
+		right: 0%;
+		top: 60px;
 		background: #FFF;
 		border: 2px solid #575445;
 		border-radius: 16px;
 		padding: 17px;
 		margin: 0px;
 	}
+
+	.header__nav.header__nav-active {
+		display: block;
+	}
+
 	.menu {
 		flex-direction: column;
 		width: auto;
@@ -264,15 +272,87 @@ h1, h2 {
 	.about__description {
 		width: auto;
 	}
+
+	.about__info {
+		padding-top: 40px;
+		padding-left: 40px;
+	}
 	
 }
+
+
 
 /* Small 577px - 768px */
 @media (max-width: 768px) {
 	.container {
 		width: 540px;
 	}
+
+	.offer {
+		padding-top: 237px;
+		padding-bottom: 227px;
+		background: url('../img/big_background.png') 75% center / cover;
+		margin-bottom: 0px;
+	}
+
+	.offer__title {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 40px;
+		color: #fffdfd;
+		margin-bottom: 15px;
+		width: 350px;
+	}
+	.offer__description {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 25px;
+		color: #fcfcff;
+		width: 280px;
+		margin-top: 25px;
+	}
+
+	.about {
+		background: #F5F5F5;
+		padding: 60px 0px;
+	}
+
+	.about__content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about__info {
+		padding-top: 40px;
+		padding-left: 0px;
+	}
+
+
+	.about img, .about__info {
+		width: 100%;
+	}
+
+	.header__nav {
+		display: none;
+		position: absolute;
+		right: 2.5%;
+		top: 60px;
+		background: #FFF;
+		border: 2px solid #575445;
+		border-radius: 16px;
+		padding: 17px;
+		margin: 0px;
+	}
+
+	.header__nav.header__nav-active {
+		display: block;
+	}
+
 }
+
+
 
 /* the smallest 320px - 576px */
 @media (max-width: 576px) {
@@ -280,6 +360,40 @@ h1, h2 {
 		width: 100%;
 		padding: 0px 15px;
 	}
+	.btn {
+		display: none;
+	}
+
+	.menu__btn {
+		margin-left: auto;
+	}
+
+	.offer {
+		padding-top: 60px;
+		padding-bottom: 100px;
+		background: url('../img/big_background.png') 75% center / cover;
+	}
+
+	.offer__title {
+		width: auto;
+		font-size: 38px;
+	}
+
+	.offer__description {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 25px;
+		color: #fcfcff;
+		width: auto;
+		margin-top: 45px;
+	}
+
+	.about {
+		background: #F5F5F5;
+		padding: 35px 0px;
+	}
+
 }
 
 /* 29:00 YT video */
