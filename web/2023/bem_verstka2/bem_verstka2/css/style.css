@@ -209,6 +209,107 @@ h1, h2 {
 	margin-left: 6px;
 	display: inline-block;
 }
+/* end................................ */
+
+
+/* setting product block */
+
+.setting {
+	background: #FAFAFC;
+	padding: 89px 0px 149px 0px;
+}
+
+.div-title {
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 43px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #575445;
+	margin-bottom: 10px;
+}
+.div-description {
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	width: 538px;
+	position: absolute;
+	height: 58px;
+	left: calc(50% - 538px/2);
+	margin-left: 0px;
+}
+
+.setting__description {
+	width: 538px;
+	height: 58px;
+}
+
+/* .................................. */
+
+
+/* products block */
+
+.products {
+	background: #FAFAFC;;
+	padding-bottom: 150px;
+	padding-left: 100px;
+}
+
+.products__content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.fon {
+background-color: #575445;
+border-radius: 32px;
+width: 64px;
+height: 64px;
+text-align: center;
+padding: 19px;
+margin-bottom: 10px;
+margin-left: 105px;
+}
+
+.products_item {
+	padding: 0px 102px 110px 0px;
+	flex: 0 1 33.333%;
+}
+
+.item-content {
+
+}
+
+.product-title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #575445;
+	margin-bottom: 10px;
+	margin-left: 45px;
+}
+.product-description {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;	
+	text-align: center;
+
+	color: #575445;
+
+}
+.products__description {
+	width: 287px;
+	height: 59px;
+}
+
 
 /* media-запросы!.................... */
 
