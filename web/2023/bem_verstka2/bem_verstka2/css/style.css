@@ -367,16 +367,43 @@ padding-left: 15px;
 
 .cart {
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 15px;
 }
 .cart__content {
+	display: flex;
+	flex-wrap: wrap;
 }
 .cart__item {
-	background: url('../img/store/IMAGE_1.png') no-repeat;
 	height: 500px;
+	flex: 0 1 33.333%;
+	border-radius: 10px;
+	padding: 0px 25px 15px 0px;
 }
 .item-cart {
+	background: url('../img/store/IMAGE_1.png') no-repeat;
 }
+
+.item-cart:nth-child(2) {
+	background: url('../img/store/IMAGE_2.png') no-repeat;
+}
+
+.item-cart:nth-child(3) {
+	background: url('../img/store/IMAGE_3.png') no-repeat;
+}
+
+.item-cart:nth-child(4) {
+	background: url('../img/store/IMAGE_4.png') no-repeat;
+}
+
+.item-cart:nth-child(5) {
+	background: url('../img/store/IMAGE_5.png') no-repeat;
+}
+
+.item-cart:nth-child(6) {
+	background: url('../img/store/IMAGE_6.png') no-repeat;
+}
+
+
 .cart-title {
 	
 font-family: 'Roboto';
@@ -388,6 +415,7 @@ color: #575445;
 padding: 35px 100px 9px 100px;
 }
 .title-cart {
+	text-align: center;
 }
 .cart-description {
 	font-family: 'Poppins';
@@ -397,13 +425,15 @@ padding: 35px 100px 9px 100px;
 	line-height: 22px;
 	text-align: center;
 	color: #575445;
-	padding: 0px 30px 30px 45px;
+	padding: 0px 30px 30px 84px;
 	margin-bottom: 15px;
 }
 .cart__description {
-	width: 322px;
+	width: 375px;
 	height: 45px;
 }
+
+
 .cart-link {
 	font-family: 'Poppins';
 	font-style: normal;
@@ -411,8 +441,14 @@ padding: 35px 100px 9px 100px;
 	font-size: 14px;
 	line-height: 21px;
 	color: #575445;
-	padding: 10px 30px 30px 93px;
+	padding: 10px 30px 30px 128px;
 }
+
+.cart-link:last-child {
+padding-left: 137px;
+margin-top: 80px;
+}
+
 
 .cart-link::after {
 	content: "";
@@ -422,6 +458,38 @@ padding: 35px 100px 9px 100px;
 	margin-left: 6px;
 	display: inline-block;
 }
+
+/* .................................. */
+
+/* block ""link-categories */
+
+.link-categories {
+padding-bottom: 100px;
+text-align: center;
+}
+.link__categories {
+	width: 183px;
+	height: 21px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+
+	color: #575445;
+}
+
+.link-categories::after {
+	content: "";
+	width: 20px;
+	height: 10px;
+	background: url('../img/Path.png');
+	margin-left: 6px;
+	display: inline-block;
+}
+
+/* .................................. */
+
 
 
 
