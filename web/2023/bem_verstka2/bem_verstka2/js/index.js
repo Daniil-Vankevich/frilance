@@ -4,3 +4,4 @@ const menuBtn = document.querySelector('.menu__btn');
 menuBtn.addEventListener('click', () => {
 	headerNavigation.classList.toggle('header__nav-active')
 } );
+

@@ -633,6 +633,115 @@ text-align: center;
 	top: 10px; */
 }
 
+/* .................................. */
+
+
+
+/* block "navigation-our-offering" */
+
+.navigating-offering {
+	padding-top: 100px;
+}
+
+.navigating-title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+	color: #575445;
+}
+.navigating-description {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #575445;
+	
+}
+.navigating__description {
+	width: 538px;
+	padding-top: 7px;
+	padding-bottom: 21px;
+}
+/* .................................. */
+
+
+
+/* block "navigating-autors" */
+
+.navigating-autors {
+	padding-bottom: 26px;
+}
+.navigating__content {
+	width: 568px;
+}
+.navigating__item {
+}
+.item-navig {
+}
+.img-big {
+	padding-right: 21px;
+}
+.big__img {
+}
+.alpinist__opinion {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #575445;	
+	padding-top: 18px;
+	padding-bottom: 12px;
+}
+.opinion-alpinist {
+	width: 465px;
+}
+.img-small {
+	padding-right: 12px;
+}
+.small__img {
+}
+.name__description-autor {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;	
+	color: #575445;
+	margin-left: 53px;
+	margin-top: -37px;
+	margin-bottom: 1px;
+}
+.job__autor {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+	color: #E6B939;
+	margin-left: 53px;
+}
+.data__description {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	color: #6F7278;
+	margin-top: -17px;
+	margin-left: 465px;
+}
+
+
+
+
+
+
+
+
 
 /* media-запросы!.................... */
 
