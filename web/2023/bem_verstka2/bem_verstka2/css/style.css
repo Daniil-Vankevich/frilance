@@ -641,6 +641,7 @@ text-align: center;
 
 .navigating-offering {
 	padding-top: 100px;
+	background: #F5F5F5;
 }
 
 .navigating-title {
@@ -672,19 +673,25 @@ text-align: center;
 /* block "navigating-autors" */
 
 .navigating-autors {
-	padding-bottom: 26px;
+	padding-bottom: 35px;
+	background: #F5F5F5;
 }
 .navigating__content {
-	width: 568px;
+	display: flex;
+	/* flex-wrap: wrap; */
 }
 .navigating__item {
+	flex: 0 1 33.333%;
 }
 .item-navig {
+	padding-bottom: 10px;
 }
 .img-big {
-	padding-right: 21px;
+	padding-right: 32px;
 }
 .big__img {
+	max-width: 100%;
+	height:auto;
 }
 .alpinist__opinion {
 	font-family: 'Poppins';
@@ -732,12 +739,50 @@ text-align: center;
 	line-height: 18px;
 	color: #6F7278;
 	margin-top: -17px;
-	margin-left: 465px;
+	margin-left: 288px;
 }
 
+/* .data-descrip {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	color: #6F7278;
+	margin-top: -17px;
+	margin-left: 430px;
+} */
+
+/* .................................. */
 
 
+/* block "link-navigating" */
 
+.link-navigating {
+	padding-bottom: 200px;
+	text-align: center;
+	background: #F5F5F5;
+}
+.link__navigating {
+	width: 183px;
+	height: 21px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 21px;
+	color: #575445;
+}
+	
+	.link__navigating::after {
+		content: "";
+		width: 20px;
+		height: 10px;
+		background: url('../img/Path.png');
+		margin-left: 10px;
+		display: inline-block;
+	}
+	
 
 
 
