@@ -832,6 +832,152 @@ text-align: center;
 	display: inline-block;
 }
 
+/* .................................. */
+
+
+/* block "Footer" */
+
+.footer {
+	height: auto;
+	background: #575445;
+	padding-bottom: 100px;
+}
+
+.footer-logo {
+	width: 140px;
+	height: 40px;
+	padding-top: 70px;
+	padding-left: 550px;
+	padding-bottom: 105px;
+}
+
+.item-footer {
+	margin-top: 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.item-footer a {
+	color:#E6B939;
+}
+
+.item-footer__white a {
+	color: white;
+}
+
+.item-footer__white {
+	color: white;
+}
+
+.footer__content {
+}
+
+.footer-nav {
+display: flex;
+
+}
+.pages {
+
+	padding-right: 150px;
+
+}
+.pages__item {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+
+.gear {
+
+	padding-right: 106px;
+}
+.gear__item {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+.company {
+	padding-right: 69px;
+}
+.company__item {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+.newsletter {
+
+}
+.newsletter__item {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+.footer__input {
+	background: #F9FAFB;
+	border: 1px solid #E5E7EB;
+	border-radius: 8px;
+	width: 458px;
+	height: 53px;
+	margin-top: 10px;
+}
+.footer-btn {
+	background:#575445;
+	border-radius: 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	width: 73px;
+	height: 39px;
+	position: absolute;
+	right: 250px;
+	margin-top: -55px;
+}
+
+.footer-img-link {
+	display: flex;
+}
+
+.footer__link {
+	padding-right: 73px;
+	padding-top: 28px;
+	margin-left: 1px
+}
+.footer__description {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	padding-top: 35px;
+	margin-right: auto;
+}
+
+
 
 
 /* media-запросы!.................... */
