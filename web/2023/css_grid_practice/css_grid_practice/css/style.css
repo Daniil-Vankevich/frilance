@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-size: 14px;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+/* Work with project */
+
+/* margin может содержать отрицательное значение, свойство padding такой способностью не обладает */
+
+
+.wrapper {
+	min-height: 100%;
+	display: grid;
+	grid-template: minmax(100px, auto) 1fr minmax(70px, auto) / 1fr;
+	grid-template-areas: 
+			"header"
+			"main"
+			"footer";
+			background-color: rgb(43, 38, 38);
+}
+.header {
+	grid-area: header;
+	padding: 15px 15px;
+	background-color: #794f45;
+	display: grid;
+	align-items: center;
+	grid-template: 1fr / 30px minmax(auto, 250px) minmax(auto, 1050px) 
+	200px ;
+}
+.header__logo {
+	width: 60px;
+	height: 60px;
+	background-color:aliceblue;
+	border-radius: 50%;
+	grid-column: 2 / 3;
+}
+
+.header__menu {
+	grid-column: 3 / 4;
+}
+.header__list {
+	display: grid;
+	grid-auto-flow: column;
+	justify-items: end ;
+}
+
+.header__list li {
+	
+}
+
+.header__link {
+	color: white;
+	font-size: 18px;
+}
+.header__burger {
+}
+.main {
+	grid-area: main;
+	padding: 30px 15px;
+	display: grid;
+	grid-template: 1fr / 1fr minmax(auto, 250px) minmax(auto, 1050px) 
+	1fr ;
+}
+.sidebar {
+	grid-column: 2 / 3;
+	background-color: green;
+	padding: 30px 15px;
+}
+.sidebar__menu {
+}
+.sidebar__list {
+}
+.sidebar__list li {
+	margin: 0px 0px 15px 0px;
+}
+
+.sidebar__link {
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.content {
+	grid-column: 3 / 4;
+	padding-left: 30px;
+}
+.content__title {
+	font-size: 32px;
+	color: white;
+}
+.content__gallery {
+}
+.gallery {
+}
+.gallery__title {
+	font-size: 20px;
+	color: white;
+}
+.gallery__items {
+}
+.gallery__item {
+}
+.gallery__item_big {
+}
+.content__products {
+}
+.products {
+}
+.products__title {
+}
+.product__items {
+}
+.product__item {
+}
+.products__image {
+}
+.products__name {
+}
+.products__button {
+}
+.footer {
+	background-color: #77608d;
+}
+.footer__copy {
+}
+.footer__text {
+}
