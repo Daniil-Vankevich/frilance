@@ -92,6 +92,8 @@ ul {
 		position: relative;
 		height: 20px;
 		width: 30px;
+		margin-left: auto;
+		margin-right: 10px;
 	}
 
 	.header__burger span {
