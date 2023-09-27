@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Css-часть 1. (Синтаксис и обнуление)</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="form">
+			<form action="#" class="body__form">
+				<h1 class="title-form">Отправка данных на почту</h1>
+				<div class="form__item">
+					<label for="formName" class="form__label">Имя*:</label>
+					<input id="formName" name="name" type="text" class="form__input">
+				</div>
+				<div class="form__item">
+					<label for="formEmail" class="form__label">E-mail*:</label>
+					<input id="formEmail" name="email" type="text" class="form__input">
+				</div>
+				<div class="form__item">
+					<div class="form__title">Левша или правша</div>
+					<div class="options">
+						<div class="options__item">
+							<input id="formRightHanded" value="right" name="hand" type="radio" class="options__item-input">
+							<label for="formRightHanded" class="options__item-label">Правша</label>
+						</div>
+						<div class="options__item">
+							<input id="formLeftHanded" value="left" name="hand" type="radio" class="options__item-input" checked>
+							<label for="formLeftHanded" class="options__item-label">Левша</label>
+						</div>
+					</div>
+				</div>
+				<div class="form__item">
+					<label for="formMessage" class="form__label">E-mail*:</label>
+					<textarea id="formMessage" name="message" type="text" class="form__input"> </textarea>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
