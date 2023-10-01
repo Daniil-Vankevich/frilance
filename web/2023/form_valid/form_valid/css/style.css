@@ -42,9 +42,95 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 /* margin может содержать отрицательное значение, свойство padding такой способностью не обладает */
 
+body {
+	background: #222d3e;
+}
+.wrapper {
 
-.form__input{
-	max-width: 150px;
+}
+.form {
+	max-width: 550px;
+	height: auto;
+	margin: 0 auto;
+	color: azure;
+	padding: 30px 0px;
+}
+.body__form {
+
+}
+.form__title {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.form__item {
+	margin-bottom: 10px;
+}
+.form__label {
+	font-size: 18px;
+	display: block;
+	margin: 10px 0px 10px 0px;
+}
+.form__input {
+	width: 100%;
 	height: auto;
 	border: 2px solid #000;
+	font-size: 18px;
+	height: 45px;
+}
+
+/* textarea .form__input {
+	height: 180px;
+} */
+
+.textarea__input {
+	min-height: 120px;
+	resize: vertical;
+	padding: 20px;
+}
+
+.options {
+}
+.options__item {
+}
+.options__item-input {
+	display: none;
+}
+.options__item-label {
+	font-size: 16px;
+	padding-bottom: 10px;
+	display: inline-flex;
+	line-height: 130%;
+	align-items: center;
+}
+
+.options__item-label::before{
+	content: "";
+	flex: 0 0 24px;
+	background-color: #fff;
+	border-radius: 50%;
+	align-self: flex-start;
+	height: 25px;
+	margin-right: 10px;
+}
+.select {
+}
+.file {
+}
+.file__item {
+}
+.file__input {
+}
+.file__button {
+	margin: 5px 0px 5px 0px;
+}
+.file__preview {
+}
+.checkbox {
+}
+.checkbox__input {
+}
+.checkbox__label {
+}
+.form__button {
 }
