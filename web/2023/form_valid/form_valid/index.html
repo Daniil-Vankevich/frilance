@@ -10,15 +10,15 @@
 <body>
 	<div class="wrapper">
 		<div class="form">
-			<form action="#" class="body__form">
+			<form action="#" id="form" class="body__form">
 				<h1 class="form__title">Отправка данных на почту</h1>
 				<div class="form__item">
 					<label for="formName" class="form__label">Имя*:</label>
-					<input id="formName" name="name" type="text" class="form__input">
+					<input id="formName" name="name" type="text" class="form__input _req">
 				</div>
 				<div class="form__item">
 					<label for="formEmail" class="form__label">E-mail*:</label>
-					<input id="formEmail" name="email" type="text" class="form__input">
+					<input id="formEmail" name="email" type="text" class="form__input _req _email">
 				</div>
 				<div class="form__item">
 					<div class="form__label">Левша или правша?</div>
@@ -52,12 +52,12 @@
 							<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
 							<div class="file__button">Выбрать</div>
 						</div>
-						<div class="file__preview"></div>
+						<div id="formPreview" class="file__preview"></div>
 					</div>
 				</div>
 				<div class="form__item">
 					<div class="checkbox">
-						<input checked id="formAgreement" name="agreement" type="checkbox" class="checkbox__input">
+						<input checked id="formAgreement" name="agreement" type="checkbox" class="checkbox__input _req">
 						<label for="formAgreement" class="checkbox__label"><span>Я даю своё согласие на обработку персональных данных в соответствии с условием</span></label>
 					</div>
 				</div>
@@ -65,5 +65,6 @@
 			</form>
 		</div>
 	</div>
+	<script src="./js/index.js"></script>
 </body>
 </html>
