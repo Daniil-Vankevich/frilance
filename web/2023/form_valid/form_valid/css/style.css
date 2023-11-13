@@ -91,6 +91,10 @@ body {
 	box-shadow: 0 0 15px #7a956b;
 }
 
+.form__input._error {
+	box-shadow: 0 0 5px red;
+}
+
 /* textarea .form__input {
 	height: 180px;
 } */
