@@ -190,8 +190,14 @@ body {
 .file__preview img {
 	max-width: 100%;
 }
+
 .checkbox {
 }
+
+.checkbox._error .checkbox__label::before {
+	box-shadow: 0 0 11px red;
+}
+
 .checkbox__input {
 	display: none;
 }
